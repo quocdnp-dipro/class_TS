@@ -29,7 +29,8 @@ class Car2 extends Car {
     weight: number;
 
     constructor(name: string, color: string, weight: number) {
-        super(name, color);
+        super(name, color); // tương đương 2 lệnh với this.name = name;  this.color = color;
+        
         this.weight = weight;
     }
 
